@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Prompt', sans-serif;
+    background: linear-gradient(135deg, #e8f5e9 0%, #fce4ec 50%, #f1f8e9 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.garden-card {
+    background-color: rgba(255, 255, 255, 0.92);
+    border: 3px solid #f8bbd0;
+    border-radius: 30px;
+    padding: 35px 30px;
+    max-width: 450px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 15px 35px rgba(129, 199, 132, 0.25);
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.garden-card:hover {
+    transform: translateY(-5px);
+}
+
+.flower-top {
+    font-size: 22px;
+    margin-bottom: 15px;
+    letter-spacing: 5px;
+}
+
+.avatar {
+    width: 105px;
+    height: 105px;
+    background: linear-gradient(135deg, #f48fb1, #ce93d8);
+    border: 5px solid #c8e6c9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 18px;
+    font-size: 48px;
+    box-shadow: 0 8px 20px rgba(244, 143, 177, 0.4);
+}
+
+h1 {
+    color: #2e7d32;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.role {
+    display: inline-block;
+    background-color: #fce4ec;
+    color: #c2185b;
+    padding: 6px 18px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    border: 1px solid #f8bbd0;
+}
+
+.info-box {
+    background-color: #f1f8e9;
+    border: 2px dashed #a5d6a7;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: left;
+}
+
+.info-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #dcedc8;
+    font-size: 15px;
+}
+
+.info-item:last-child {
+    border-bottom: none;
+}
+
+.label {
+    color: #388e3c;
+    font-weight: 600;
+}
+
+.value {
+    color: #4a4a4a;
+    text-align: right;
+}
+
+.footer-garden {
+    margin-top: 22px;
+    font-size: 13px;
+    color: #ad1457;
+    background-color: #fff0f5;
+    padding: 8px;
+    border-radius: 12px;
+}

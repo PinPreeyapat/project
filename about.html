@@ -4,74 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ข้อมูลส่วนตัว - PinPreeyapat</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-        }
-        .card {
-            background-color: white;
-            padding: 40px;
-            border-radius: 20px;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-            text-align: center;
-            max-width: 420px;
-            width: 90%;
-        }
-        .avatar {
-            width: 100px;
-            height: 100px;
-            background-color: #764ba2;
-            color: white;
-            font-size: 40px;
-            font-weight: bold;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 0 auto 20px;
-        }
-        h1 {
-            color: #333;
-            margin-bottom: 5px;
-            font-size: 24px;
-        }
-        .role {
-            color: #764ba2;
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
-        .info {
-            text-align: left;
-            background-color: #f8f9fa;
-            padding: 15px 20px;
-            border-radius: 10px;
-            color: #555;
-            line-height: 1.8;
-        }
-        .info p {
-            margin: 5px 0;
-        }
-    </style>
+    <link href="https://googleapis.com" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="card">
-        <div class="avatar">P</div>
-        <h1>นางสาวพิณปรียาภัทร ...</h1>
-        <div class="role">นักศึกษาสาขาเทคโนโลยีสารสนเทศ</div>
+    <div class="garden-card">
+        <div class="flower-top">🌸 🌿 🌷 🌿 🌸</div>
         
-        <div class="info">
-            <p><strong>ชื่อเล่น:</strong> พิณ</p>
-            <p><strong>อายุ:</strong> 19 ปี</p>
-            <p><strong>รหัสนักศึกษา:</strong> 66xxxxxxx</p>
-            <p><strong>งานอดิเรก:</strong> เขียนโค้ด, ฟังเพลง, ดูหนัง</p>
-            <p><strong>อีเมล:</strong> pinpreeyapat@example.com</p>
+        <div class="avatar">
+            <span>🌺</span>
+        </div>
+        
+        <h1>นางสาวพิณปรียาภัทร ...</h1>
+        <div class="role">✨ นักศึกษาสาขาเทคโนโลยีสารสนเทศ ✨</div>
+        
+        <div class="info-box">
+            <div class="info-item">
+                <span class="label">🌷 ชื่อเล่น:</span>
+                <span class="value">พิณ</span>
+            </div>
+            <div class="info-item">
+                <span class="label">🌱 อายุ:</span>
+                <span class="value">19 ปี</span>
+            </div>
+            <div class="info-item">
+                <span class="label">🪪 รหัสนักศึกษา:</span>
+                <span class="value">66xxxxxxx</span>
+            </div>
+            <div class="info-item">
+                <span class="label">🎨 งานอดิเรก:</span>
+                <span class="value">เขียนโค้ด, ฟังเพลง, ดูหนัง</span>
+            </div>
+            <div class="info-item">
+                <span class="label">💌 อีเมล:</span>
+                <span class="value">pinpreeyapat@example.com</span>
+            </div>
+        </div>
+
+        <div class="footer-garden">
+            🍃 ยินดีต้อนรับสู่สวนเล็กๆ ของฉัน 🍃
         </div>
     </div>
 
