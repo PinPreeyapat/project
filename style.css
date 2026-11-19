@@ -38,8 +38,8 @@ body {
 }
 
 .avatar {
-    width: 105px;
-    height: 105px;
+    width: 115px;
+    height: 115px;
     background: linear-gradient(135deg, #f48fb1, #ce93d8);
     border: 5px solid #c8e6c9;
     border-radius: 50%;
@@ -47,8 +47,14 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0 auto 18px;
-    font-size: 48px;
     box-shadow: 0 8px 20px rgba(244, 143, 177, 0.4);
+    overflow: hidden;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 h1 {
